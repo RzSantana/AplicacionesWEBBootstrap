@@ -1,0 +1,40 @@
+/* Estilo de la imagen de fondo del header */
+
+.background{
+    background-image: url(./img/pexels-lucas-monteiro-1868563.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 30rem;
+    
+}
+
+/* Estilo del nav */
+.bg-dark{
+    --bs-bg-opacity: 0.85;
+}
+.navTitle{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0 2rem 0 2rem;
+}
+
+.nav-link{
+    color: white;
+    align-items:center;
+    opacity: 100%;
+
+}
+.nav-link:hover{
+    color: white;
+    font-weight: 600;
+
+}
+
+/* Texto del tiempo del envio */
+.textSend{
+    color: crimson;
+    margin: 2rem 0 5rem 0;
+
+}
+
