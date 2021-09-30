@@ -38,3 +38,19 @@
 
 }
 
+.article{
+    /* border: 1px solid red; */
+}
+.containerNewCollection{
+    /* border: 1px solid purple; */
+}
+.containerProducts {
+    /* border: 1px solid green; */
+}
+
+
+.productNewCollection{
+    border: 1px solid blue;
+    width: 250px;
+    height: 300px;
+}
