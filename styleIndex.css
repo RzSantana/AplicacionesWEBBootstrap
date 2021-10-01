@@ -25,8 +25,8 @@
     opacity: 100%;
 
 }
-.nav-link:hover{
-    color: red;
+.links:hover{
+    color: rgb(107, 7, 7);
 
 }
 
@@ -37,19 +37,24 @@
 
 }
 
+/* Aticulo de la pagina */
 .article{
-    /* border: 1px solid red; */
-}
-.containerNewCollection{
-    /* border: 1px solid purple; */
-}
-.containerProducts {
-    /* border: 1px solid green; */
+    border: 1px solid red;
 }
 
 
+/* Nueva Coleccion */
+.containerProducts{
+    border: 1px solid green;
+}
 .productNewCollection{
     border: 1px solid blue;
+}
+.img{
     width: 250px;
     height: 300px;
+}
+
+.card{
+    height: auto;
 }
