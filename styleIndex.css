@@ -4,7 +4,7 @@
 
 /* Estilo de la imagen de fondo del header */
 .background{
-    background-image: url(./img/pexels-lucas-monteiro-1868563.jpg);
+    background-image: url(https://images.pexels.com/photos/1868563/pexels-photo-1868563.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center;
