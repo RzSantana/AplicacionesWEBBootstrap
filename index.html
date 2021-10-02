@@ -6,101 +6,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stow</title>
 
+    <script src="https://kit.fontawesome.com/f9c11574c0.js" crossorigin="anonymous"></script>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="./styleIndex.css">
+    <link href="https://www.dafontfree.net/embed/ZXJhcy1kZW1pLWl0Yy1yZWd1bGFyJmRhdGEvMTMvZS82NDc3MS9FUkFTREVNSS5UVEY" rel="stylesheet" type="text/css"/>
 </head>
-<body>
+<body class="styleBody">
     <header>
+      
         <!-- Imagen de fondo -->
         <div class="background">
              <!-- Barra de navegacion -->
             <nav class="navbar navbar-dark bg-dark justify-content-center ">
-                <ul class="nav ">
+                <ul class="nav">
                     <li class="nav-item">
-                        <a class="links nav-link"  href="#">Productos</a>
+                        <a class="links nav-link"  href="./pages/products.html">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navTitle" href="#">Stow</a>
+                        <a class="linkStow nav-link navTitle ps-5 pe-5 p-0" href="./index.html">Stow</a>
                     </li>
                     <li class=" links nav-item">
-                        <a class="nav-link" href="#">Sobre nosotros</a>
+                        <a class="links nav-link" href="./pages/aboutUs.html">Sobre nosotros</a>
                     </li>
                 </ul>
             </nav>
         </div>
+
         <!-- Texto de tiempo de envio -->
-        <p class="textSend text-uppercase text-center text-decoration-underline">Envios de 5 a 7 dias</p>
+        <p class="textSend mt-5 mb-5 fs-5 text-uppercase text-center text-decoration-underline">Envios de 5 a 7 dias</p>
 
     </header>
 
-    <section >
+    <section>
+        
+        <!-- Nueva coleccion -->
         <article class="article container">
-            <h3>Nueva coleccion</h3>
-            
-            <div class="containerNewCollection containerProducts container row">
-
-                <div class="row g-4 containerProducts">
+            <!-- Contenedor de la nueva coleccion  -->
+            <h3 class="titleNewCollection ms-5">Nueva coleccion</h3>
+            <div class="containerNewCollection justify-content-center row">
+                <!-- Contenedor de los productos -->
+                <div class="row g-3  justify-content-center containerProducts">
+                    <!-- Productos -->
                     <div class="col">
                       <div class="card productNewCollection">
-                        <img src="https://images.pexels.com/photos/4373459/pexels-photo-4373459.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class=" card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Name Product</p>  
-                        </div>
+                        <div class="imgNewCollection imgNewCollection1 card-img-top"></div>
+                        <div class="row align-items-center card-body">
+                          <p class="col my-0 card-text">Vintage</p>  
+                          <p class="precio col my-0 text-end">30€</p>
+                      </div>
                       </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col text-star">
                       <div class="card productNewCollection">
-                        <div class="imgs">
-                            <img src="https://images.pexels.com/photos/6311619/pexels-photo-6311619.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">Name Product</p>        
+                        <div class="imgNewCollection imgNewCollection2 card-img-top"></div>
+                        <div class="row align-items-center card-body">
+                            <p class="col my-0 card-text">Dark basic</p>  
+                            <p class="precio col my-0 text-end">25€</p>
                         </div>
                       </div>
                     </div>
                     
-                    <div class="col">
+                    <div class="col ">
                       <div class="card productNewCollection">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Name Product</p>                        
-                        </div>
+                        <div class="imgNewCollection imgNewCollection3 card-img-top"></div>
+                        <div class="row align-items-center card-body">
+                          <p class="col my-0 card-text">Polarid</p>  
+                          <p class="precio col my-0 text-end">25€</p>
+                      </div>
                       </div>
                     </div>
 
-                    <div class="col">
+                    <div class="col ">
                       <div class="card productNewCollection">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Name Product</p>      
-                        </div>
+                        <div class="imgNewCollection imgNewCollection4 card-img-top"></div>
+                        <div class="row align-items-center card-body">
+                          <p class="col my-0 card-text">Denim jacket</p>  
+                          <p class="precio col my-0 text-end">50€</p>
+                      </div>
                       </div>
                     </div>
+
                   </div>
-                <!-- <div class="card m-2 h-100 productNewCollection">
-                    <img src="..." class="card-img-bottom" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Lorem Ipsum</p>
-                    </div>
-                  </div>
-                
-                <div class="m-2 productNewCollection ">
-                    <p class="productName">Lorem Ipsum</p>
-                </div>
-                
-                <div class="m-2 productNewCollection ">
-                    <p class="productName">Lorem Ipsum</p>
-                </div>
-                
-                <div class="m-2 productNewCollection">
-                    <p class="productName">Lorem Ipsum</p>
-                </div> -->
 
             </div>
-            <h1>hola mundo </h1>
+            
+        </article >
+
+        <!-- Oferta -->
+        <article class="articleOffer">
+          <div class="imgOffer">
+            <div class="blurredImagOffer text-center ">
+              <h2 class="position-relative top-50 start-50 translate-middle">Con tu primera compra disfruta de un <br> <span>25%</span> de descuento</h2>
+
+            </div>
+          </div>
+
         </article>
-        
+
     </section>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mx-4 border-top">
+      
+      <div class="ms-5 col-md-4 d-flex align-items-center">
+        <span class=" text-muted">&copy; 2021 Company, Rz$</span>
+      </div>
+  
+      <ul class=" nav col-md-4 me-5 justify-content-end list-unstyled d-flex">
+         
+        <li class="ms-3">
+          <a class="text-muted" href="https://github.com/RzSantana" target="_blank">
+            <i class="iconsFooter fab fa-github"></i>
+          </a>
+        </li>
+        
+        <li class="ms-3">
+          <a class="text-muted" href="https://www.instagram.com/code.rzs/" target="_blank">
+            <i class="iconsFooter fab fa-instagram"></i>
+          </a>
+        </li>
+
+      </ul>
+    </footer>
 </body>
+
 </html>
+

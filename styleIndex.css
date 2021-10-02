@@ -1,5 +1,8 @@
-/* Estilo de la imagen de fondo del header */
+.styleBody{
+    font-family: eras itc;
+}
 
+/* Estilo de la imagen de fondo del header */
 .background{
     background-image: url(./img/pexels-lucas-monteiro-1868563.jpg);
     background-size: cover;
@@ -16,45 +19,113 @@
 .navTitle{
     font-size: 25px;
     font-weight: 700;
-    padding: 0 2rem 0 2rem;
+}
+.nav-link-transition{
+    color: white;
 }
 
 .nav-link{
     color: white;
     align-items:center;
-    opacity: 100%;
 
 }
+.nav-link:focus{
+    color: white;
+}
 .links:hover{
-    color: rgb(107, 7, 7);
+    color: #bd0016;
+
+}
+.linkStow:hover{
+    color: rgb(255, 255, 255);
 
 }
 
 /* Texto del tiempo del envio */
 .textSend{
     color: crimson;
-    margin: 2rem 0 5rem 0;
 
 }
 
-/* Aticulo de la pagina */
-.article{
-    border: 1px solid red;
-}
-
+/* Aticulos de la pagina */
 
 /* Nueva Coleccion */
-.containerProducts{
-    border: 1px solid green;
+.titleNewCollection{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
 }
 .productNewCollection{
-    border: 1px solid blue;
+    width: 300px;
+    height: 420px;
+    border-radius: 0px;
+    border: none;
+    font-family: eras itc;
+    font-weight: 500;
+    font-size: 15px;
+    
 }
-.img{
-    width: 250px;
-    height: 300px;
+.productNewCollection .precio{
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.productNewCollection:hover{
+    border: 1px solid black
+}
+.imgNewCollection{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+    border-radius: 0px;
+}
+.imgNewCollection1{
+    background-image: url(https://images.pexels.com/photos/4212009/pexels-photo-4212009.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);    
+}
+.imgNewCollection2{
+    background-image: url(https://images.pexels.com/photos/4373459/pexels-photo-4373459.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);    
+}
+.imgNewCollection3{
+    background-image: url(https://images.pexels.com/photos/7434314/pexels-photo-7434314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); 
+}
+.imgNewCollection4{
+    background-image: url(https://images.pexels.com/photos/4287048/pexels-photo-4287048.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
 }
 
-.card{
-    height: auto;
+/* Oferta descuento */
+.articleOffer{
+    margin: 10rem 0 6rem 0;
+}
+
+
+.imgOffer{
+    background-image: url(https://images.pexels.com/photos/5560376/pexels-photo-5560376.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    
+}
+.blurredImagOffer{
+    background-color: rgba(0, 0, 0, 0.45);
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+    color:white;
+}
+.blurredImagOffer h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.blurredImagOffer h2 span{
+    font-weight: 900;
+    color: #bd0016;
+}
+
+
+/* Footer */
+
+.iconsFooter{
+    font-size: 25px
 }
