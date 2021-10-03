@@ -69,10 +69,12 @@
 .like::before{
     font-family:"Font Awesome 5 Free";
     content: "\f004";
-    color: black;
-    font-size: 20px;
-    display: inline-block;
+    font-size: 12px;
     font-style: normal;
+}
+.like:hover{
+    color: red;
+    font-weight: 900;
 }
 
 .imgProducts{
@@ -113,7 +115,7 @@
     background-image: url(https://images.pexels.com/photos/3425725/pexels-photo-3425725.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
 }
 .textCategoriProduct{
-    font-size: 12px;
+    font-size: 11px;
 }
 
 

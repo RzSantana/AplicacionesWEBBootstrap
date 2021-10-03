@@ -76,6 +76,17 @@
 .productNewCollection:hover{
     border: 1px solid black
 }
+.like::before{
+    font-family:"Font Awesome 5 Free";
+    content: "\f004";
+    font-size: 12px;
+    font-style: normal;
+}
+.like:hover{
+    color: red;
+    font-weight: 900;
+}
+
 .imgNewCollection{
     background-size: cover;
     background-repeat: no-repeat;
