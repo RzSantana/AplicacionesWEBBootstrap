@@ -53,7 +53,8 @@
 .titleNewCollection{
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 2rem;
+    /* font-size: 36px; */
 }
 .productNewCollection{
     width: 16rem;

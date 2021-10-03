@@ -1,0 +1,124 @@
+
+.styleBody{
+    font-family: 'eras-demi-itc-regular', sans-serif;
+}
+
+/* Estilo del nav */
+.bg-dark{
+    --bs-bg-opacity: 1;
+}
+.navTitle{
+    font-size: 25px;
+    font-weight: 700;
+}
+.nav-link-transition{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    align-items:center;
+
+}
+.nav-link:focus{
+    color: white;
+}
+.links:hover{
+    color: #bd0016;
+
+}
+.linkStow:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+/* Links de los productos  */
+.linksProducts{
+    border: solid 1px  white;
+}
+
+.linksProducts:hover{
+    border: solid 1px black;
+}
+
+
+/* Aticulos de la pagina */
+
+
+/* Productos */
+.products{
+    width: 16rem;
+    height: 25rem;
+    /* width: 300px;
+    height: 420px; */
+    border-radius: 0px;
+    border: none;
+    font-family: 'eras-demi-itc-regular', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+.products .precio{
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.products:hover{
+    border: 1px solid black
+}
+.like::before{
+    font-family:"Font Awesome 5 Free";
+    content: "\f004";
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    font-style: normal;
+}
+
+.imgProducts{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+    border-radius: 0px;
+}
+.imgProduct1{
+    background-image: url(https://images.pexels.com/photos/4212009/pexels-photo-4212009.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);    
+}
+.imgProduct2{
+    background-image: url(https://images.pexels.com/photos/4373459/pexels-photo-4373459.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);    
+}
+.imgProduct3{
+    background-image: url(https://images.pexels.com/photos/7434314/pexels-photo-7434314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); 
+}
+.imgProduct4{
+    background-image: url(https://images.pexels.com/photos/4287048/pexels-photo-4287048.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); 
+}
+.imgProduct5{
+    background-image: url(https://images.pexels.com/photos/4092367/pexels-photo-4092367.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500); 
+}
+.imgProduct6{
+    background-image: url(https://images.pexels.com/photos/4525745/pexels-photo-4525745.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+}
+.imgProduct7{
+    background-image: url(https://images.pexels.com/photos/3822943/pexels-photo-3822943.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); 
+}
+.imgProduct8{
+    background-image: url(https://images.pexels.com/photos/2072454/pexels-photo-2072454.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+}
+.imgProduct9{
+    background-image: url(https://images.pexels.com/photos/3133677/pexels-photo-3133677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+.imgProduct10{
+    background-image: url(https://images.pexels.com/photos/3425725/pexels-photo-3425725.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+}
+.textCategoriProduct{
+    font-size: 12px;
+}
+
+
+/* Footer */
+
+.iconsFooter{
+    font-size: 25px
+}
