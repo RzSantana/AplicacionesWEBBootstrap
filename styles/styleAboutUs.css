@@ -1,0 +1,81 @@
+
+.styleBody{
+    font-family: 'eras-demi-itc-regular', sans-serif;
+}
+
+/* Estilo del nav */
+.bg-dark{
+    --bs-bg-opacity: 1;
+}
+.navTitle{
+    font-size: 25px;
+    font-weight: 700;
+}
+.nav-link-transition{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    align-items:center;
+
+}
+.nav-link:focus{
+    color: white;
+}
+.links:hover{
+    color: #bd0016;
+
+}
+.linkStow:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+/* Links de los productos  */
+.linksProducts{
+    border: solid 1px  white;
+}
+
+.linksProducts:hover{
+    border: solid 1px black;
+}
+
+
+/* Articulos */
+.article1{
+    margin: 10rem 20rem 10rem 20rem;
+    height: 30rem;
+}
+.article1{
+    margin: 10rem 20rem 10rem 20rem;
+    height: 30rem;
+}
+
+/* Imagenes de las secciones */
+
+.imgAboutUs1{
+    background-image: url(https://images.pexels.com/photos/3598015/pexels-photo-3598015.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    
+    
+}
+.imgAboutUs2{
+    background-image: url(https://images.pexels.com/photos/5662818/pexels-photo-5662818.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+}
+
+
+/* Footer */
+
+.iconsFooter{
+    font-size: 25px
+}
