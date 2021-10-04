@@ -41,14 +41,19 @@
     border: solid 1px black;
 }
 
+/* Seccion de Sobre nosotros */
+.sectionAboutUs{
+    padding-top: 50px;
+}
+
 
 /* Articulos */
 .article1{
-    margin: 10rem 20rem 10rem 20rem;
+    margin: 5rem 20rem 10rem 20rem;
     height: 30rem;
 }
-.article1{
-    margin: 10rem 20rem 10rem 20rem;
+.article2{
+    margin: 5rem 20rem 10rem 20rem;
     height: 30rem;
 }
 
