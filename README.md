@@ -1,5 +1,5 @@
 # AplicacionesWEB-Bootstrap
-Proyeto de Bootstrap para Aplicaciones WEB. Deseño y maquetacion de interfaz con *Figma*, 
+Proyeto de Bootstrap para Aplicaciones WEB. Diseño y maquetacion de interfaz con *Figma*, 
 para el desarrollo de una web utilizando la libreria de css, *Bootrtrap*.
 
 Visita la pagina y echale un vistazo:
